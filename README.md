@@ -1,3 +1,4 @@
+# Function explaination 
 User and Group Audits:
 
 Lists all users and groups.
@@ -40,3 +41,10 @@ Allows for custom checks defined in a configuration file (custom_checks.conf).
 Reporting and Alerting:
 
 Generates a summary report of the audit and hardening process (report.txt).
+# How to use the script
+1. Save the script as security_audit_hardening.sh.
+2. Make it executable:
+   chmod +x security_audit_hardening.sh
+3. Run the script:
+  sudo ./security_audit_hardening.sh
+
